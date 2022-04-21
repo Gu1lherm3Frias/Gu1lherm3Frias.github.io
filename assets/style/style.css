@@ -13,9 +13,7 @@ body {
 }
 
 header {
-    height: 10.0rem;
-    margin: 2.4rem;
-    padding: 2.4rem;
+    height: 14vh;
 
     display: flex;
     justify-content: center;
@@ -43,7 +41,7 @@ header {
     margin: 1.0rem;
 
     text-decoration: none;
-    font-size: 2.0rem;
+    font-size: 1.6rem;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
 }
@@ -56,17 +54,16 @@ main {
 }
 
 .container {
-    width: min(100vw - 50.0rem);
-    height: 100vh;
-    margin-top: 10.0rem;
+    width: min(100vw - 40.0rem);
+    height: 86vh;
 
     display: flex;
     justify-content: space-around;
-    align-items: start;
+    align-items: center;
 }
 
 .container-content {
-    width: 30vw;
+    width: 35vw;
     height: 40vh;
 }
 
@@ -88,7 +85,7 @@ main {
     color: #21243D;
     margin-top: 2.4rem;
 
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-family: 'Heebo', sans-serif;
 }
 
@@ -96,13 +93,40 @@ main {
     width: 25.5rem;
 }
 
+/* Second Container */
+
 .cards-container {
-    width: min(100vw - 50.0rem);
+    width: min(100vw - 40.0rem);
     height: 100vh;
+
+    display: flex;
+    flex-direction: column;
 }
 
-.cards-container h2 {
+.card-container-header {
+    padding: 3.2rem;
+    width: min(100vw - 40.0rem);
+    align-self: center;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container-header h2{
     font-size: 2.4rem;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
+}
+
+.card-container-header a {
+    color: #00A8CC;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.cards-block {
+    width: min(100vw - 40.0rem);
+    padding: 3.2rem;
 }
