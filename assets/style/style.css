@@ -219,12 +219,18 @@ main {
     font-family: 'Heebo', sans-serif;
 }
 
-.left-background {
-    background-image: url("/assets/images/undraw_programming_re_kg9v.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 80vw;
+.extended-card-image {
+    width: 30vw;
     margin: 1.6rem;
     padding: 1.6rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.extended-card-image img{
+    width: 20vw;
+    height: 30vh;
+    opacity: 0.9;
 }
