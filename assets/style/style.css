@@ -104,21 +104,35 @@ main {
 }
 
 .card-container-header {
-    padding: 3.2rem;
     width: min(100vw - 40.0rem);
-    align-self: center;
-
+    margin-bottom: 3.2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.card-container-header h2{
+.card-container-h2 {
+    width: 35vw;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card-container-link {
+    width: 25.5rem;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card-container-h2 h2{
     font-size: 2.4rem;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
 
-.card-container-header a {
+.card-container-link a {
     color: #00A8CC;
     text-decoration: none;
     font-size: 1.8rem;
@@ -129,4 +143,87 @@ main {
 .cards-block {
     width: min(100vw - 40.0rem);
     padding: 3.2rem;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    /* background-color: #f0f0f0; */
+    width: 30vw;
+    height: 40vh;
+    margin: 3.2rem;
+    padding: 1.6rem;
+    border-radius: 0.7rem;
+    box-shadow: 5px 5px 10px #00000036;
+}
+
+.card h3 {
+    color: #0A2A42;
+    margin-bottom: 1.6rem;
+    font-size: 2.8rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.card span {
+    color: #636B78;
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.card p {
+    color: #000;
+    margin-top: 2.4rem;
+    font-size: 1.8rem;
+    font-family: 'Heebo', sans-serif;
+}
+
+.extended-card-block {
+    width: min(100vw - 40.0rem);
+
+    display: flex;
+    justify-content: center;
+}
+
+.extended-card {
+    width: 61vw;
+    height: 30vh;
+    padding: 1.6rem;
+    border-radius: 0.7rem;
+    box-shadow: 5px 5px 10px #00000036;
+
+    display: flex;
+}
+
+.extended-card-content h3{
+    color: #0A2A42;
+    margin-bottom: 1.6rem;
+    font-size: 2.8rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.extended-card-content span {
+    color: #636B78;
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.extended-card-content p {
+    color: #000;
+    margin-top: 2.4rem;
+    font-size: 1.8rem;
+    font-family: 'Heebo', sans-serif;
+}
+
+.left-background {
+    background-image: url("/assets/images/undraw_portfolio_website_re_jsdd.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60vw;
+    margin: 1.6rem;
+    padding: 1.6rem;
 }
